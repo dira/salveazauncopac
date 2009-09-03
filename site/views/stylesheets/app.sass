@@ -1,0 +1,104 @@
+@import _mixins.sass
+@import _reset.sass
+
+!good_color = #FF6633
+!bad_color = #8C540F
+
+/* basic elements
+body
+  background-color: #fff
+  color: #2f2f2f
+  font: normal 14px/18px Helvetica, Arial, "sans-serif"
+a, .contact
+  color = !good_color
+a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+strong
+  font-weight: bold
+
+/* layout
+#all
+  width: 780px
+  margin: 0 auto
+  border-left: 1px solid #eee
+  border-right: 1px solid #eee
+#all
+  position: relative
+  background: url(/images/bg.gif) repeat-x
+#content,#footer
+  padding: 0 30px
+#footer
+  padding-top: 9px
+  padding-bottom: 9px
+  background: url(/images/footer.gif) repeat-x
+  text-align: right  
+  
+
+h1 span
+  display: block
+  &.container
+    position: absolute
+    top: 108px
+    left: 270px  
+    
+  .good
+    color = !good_color
+  .bad
+    margin-left: 60px
+    color = !bad_color
+    font-size: 24px
+
+#stores
+  +clearfix
+  margin-top: 18px
+  margin-left: -30px
+  li
+    float: left
+    width: 220px
+    padding-left: 30px
+    min-height: 214px
+    
+    .img_wrapper
+      height: 72px
+    img
+      display: block
+      max-width: 100%
+      max-height: 63px
+  .info a
+    color = !bad_color
+
+#faq li
+  list-style-type: circle
+      
+/* typography & vertical rithm  
+h1, h2
+  font-family: Trebuchet MS, "sans-serif"
+
+p,h3,#stores li
+  margin-bottom: 18px
+#stores .dezabonare
+  /* a bit out of rythm
+  margin: 9px 0
+
+h1
+  height: 252px
+  margin-bottom: 36px
+  font-size: 45px
+  line-height: 54px
+h2
+  font-size: 24px
+  line-height: 36px
+h3
+  font-size: 18px
+  line-height: 18px
+.pitch
+  font-size: 16px  
+  line-height: 36px
+p.question
+  margin-bottom: 0
+  font-weight: bold
+  line-height: 36px
+  
