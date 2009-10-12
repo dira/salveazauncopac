@@ -23,7 +23,7 @@ end
 
 get '/stylesheets/:name.css' do
   content_type 'text/css', :charset => 'utf-8'
-  sass "stylesheets/#{params["name"]}".to_sym, :sass => {:style => :expanded, :load_paths => ["views/stylesheets/"]}
+  sass "stylesheets/#{params["name"]}".to_sym, :style => :expanded, :load_paths => ["views/stylesheets/"]
 end
 
 get '/*' do

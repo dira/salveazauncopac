@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'pathname'
 require 'fileutils'
+require 'Sass'
 
 port  = 4567
 
