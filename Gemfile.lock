@@ -4,6 +4,7 @@ GEM
     puma (2.12.3)
     rack (1.5.2)
     rack-rewrite (1.5.1)
+    sass (3.4.16)
 
 PLATFORMS
   ruby
@@ -12,6 +13,7 @@ DEPENDENCIES
   puma!
   rack!
   rack-rewrite!
+  sass!
 
 BUNDLED WITH
    1.11.2
