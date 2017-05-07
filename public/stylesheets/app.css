@@ -35,12 +35,12 @@ abbr, acronym {
 
 /* basic elements */
 body {
-  background-color: white;
+  background-color: #fff;
   color: #2f2f2f;
   font: normal 14px/18px Helvetica, Arial, "sans-serif"; }
 
 a, .contact {
-  color: #ff6633; }
+  color: #FF6633; }
 
 a {
   text-decoration: none; }
@@ -54,8 +54,8 @@ strong {
 #all {
   width: 780px;
   margin: 0 auto;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee; }
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee; }
 
 #all {
   position: relative;
@@ -77,10 +77,10 @@ h1 span {
     top: 108px;
     left: 270px; }
   h1 span .good {
-    color: #ff6633; }
+    color: #FF6633; }
   h1 span .bad {
     margin-left: 60px;
-    color: #8c540f;
+    color: #8C540F;
     font-size: 24px; }
 
 #stores {
@@ -105,7 +105,7 @@ h1 span {
       max-width: 100%;
       max-height: 63px; }
   #stores .info a {
-    color: #8c540f; }
+    color: #8C540F; }
 
 #faq li {
   list-style-type: circle; }
@@ -143,3 +143,5 @@ p.question {
   margin-bottom: 0;
   font-weight: bold;
   line-height: 36px; }
+
+/*# sourceMappingURL=app.css.map */

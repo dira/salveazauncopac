@@ -1,8 +1,8 @@
 @import _mixins.sass
 @import _reset.sass
 
-!bright_color = #FF6633
-!dark_color = #8C540F
+$bright_color: #FF6633
+$dark_color: #8C540F
 
 /* basic elements
 body
@@ -10,7 +10,7 @@ body
   color: #2f2f2f
   font: normal 14px/18px Helvetica, Arial, "sans-serif"
 a, .contact
-  color = !bright_color
+  color: $bright_color
 a
   text-decoration: none
   &:hover
@@ -45,10 +45,10 @@ h1 span
     left: 270px  
     
   .good
-    color = !bright_color
+    color: $bright_color
   .bad
     margin-left: 60px
-    color = !dark_color
+    color: $dark_color
     font-size: 24px
 
 #stores
@@ -68,7 +68,7 @@ h1 span
       max-width: 100%
       max-height: 63px
   .info a
-    color = !dark_color
+    color: $dark_color
 
 #faq li
   list-style-type: circle
@@ -101,4 +101,3 @@ p.question
   margin-bottom: 0
   font-weight: bold
   line-height: 36px
-  

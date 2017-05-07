@@ -1,5 +1,5 @@
 require 'rack/rewrite'
-require 'rack_haml_sass_generator'
+require_relative 'rack_haml_sass_generator'
 
 use Rack::SiteGenerator, :destination_path => "public"
 
